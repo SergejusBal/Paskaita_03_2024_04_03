@@ -113,7 +113,7 @@ public class Main {
 
 
         /////////////////////////////////////////////
-        /////////// Užduotis bendra 5
+        /////////// Užduotis 5
 
         System.out.println();
         System.out.println("Užduotis bendra 5");
@@ -146,7 +146,7 @@ public class Main {
         /////////// Užduotis bendra 6
 
         System.out.println();
-        System.out.println("Užduotis bendra 6");
+        System.out.println("Užduotis 6");
         System.out.println();
 
         Mokinys jonas = new Mokinys("Jonas","Betra",new int[]{7,3,8});
@@ -160,23 +160,24 @@ public class Main {
         mokyniai.add(mantas);
         mokyniai.add(inga);
 
-        Map<String, Float> zurnalas = new HashMap<String, Float>();
 
+        Map<String, Float> zurnalas = new HashMap<String, Float>();
         for(Mokinys m : mokyniai){
             zurnalas.put(m.vardas+" "+m.pavarde,m.vidurkis);
         }
         System.out.println();
         System.out.println(zurnalas);
 
-        TreeSet<Float> vidurkiai = new TreeSet<Float>();
 
+
+        TreeSet<Float> vidurkiai = new TreeSet<Float>();
         for(Mokinys m : mokyniai){
             vidurkiai.add(m.vidurkis);
 
         }
-
         System.out.println();
         System.out.println(vidurkiai);
+
 
 
         System.out.println();
@@ -201,6 +202,5 @@ public class Main {
         }
 
     }
-
 
 }
