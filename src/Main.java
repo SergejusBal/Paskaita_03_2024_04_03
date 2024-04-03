@@ -143,7 +143,7 @@ public class Main {
 
 
         /////////////////////////////////////////////
-        /////////// Užduotis bendra 6
+        /////////// Užduotis  6
 
         System.out.println();
         System.out.println("Užduotis 6");
